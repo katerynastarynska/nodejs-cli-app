@@ -33,8 +33,3 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 const arr = hideBin(process.argv);
 const {argv} = yargs(arr);
 invokeAction(argv);
-
-// invokeAction({action: 'list'})
-// invokeAction({ action: 'get', id: "vza2RIzNGIwutCVCs4mCL" })
-// invokeAction({ action: 'add', name: "me", email: "me@asd", phone: "12345" })
-// invokeAction({ action: 'remove', id: "P7Y-nPnSSOHQYXAEvKfqD" })
